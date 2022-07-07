@@ -1,15 +1,13 @@
 # Rat-Project-CureMD
 
-The following project was done for the Research Aptitude Test of CureMD.The following contains critical reviews of the below mentioned papers:
- 
- 1-Explainable AI for Classification using Probabilistic Logic Inference
-  
-  2-Causability and explainability of artificial intelligence in medicine
+Question 1: Please download the papers titled “Explainable AI for Classification using Probabilistic Logic Inference” by Fan et al and “Causability and explainability of artificial intelligence in medicine” by holzinger et al and submit their critical reviews. [100 Marks] 
 
-The heart.csv file is the dataset of Heart Failure Prediction Dataset acquired from kaggle.
-Information of dataset:
-Cardiovascular diseases (CVDs) are the number 1 cause of death globally, taking an estimated 17.9 million lives each year, which accounts for 31% of all deaths worldwide. Four out of 5CVD deaths are due to heart attacks and strokes, and one-third of these deaths occur prematurely in people under 70 years of age. Heart failure is a common event caused by CVDs and this dataset contains 11 features that can be used to predict a possible heart disease.
-People with cardiovascular disease or who are at high cardiovascular risk (due to the presence of one or more risk factors such as hypertension, diabetes, hyperlipidaemia or already established disease) need early detection and management wherein a machine learning model can be of great help.
-https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction?resource=download
+Progress:
+The following two papers have been read and critically analyzed.
 
-The notebook file contains training and testing of the dataset, including the data preprocessing. Visulaizations are done to point out the important features of the dataset. Furthermore, Implementation of the paper (1) Explainable AI for Classification using Probabilistic Logic Inference is done.
+
+Question 2: Please thoroughly read the first paper by X. Fan et al (in Question 1) mentioned in the above. Please use it as a starting point and understand the explainable model presented in it. Go to https://www.kaggle.com/datasets and download a Medical Dataset and see what challenging question it poses. If you need to further understand Explainable AI then also study “Explainable AI: A Review of Machine Learning Interpretability Methods” by Linardatos et al published in Entropy Journal of MDPI
+
+Progress:
+The dataset chosen from Kaggle was “Heart Failure Prediction Dataset”. The following dataset contained 11 clinical features for predicting heart disease events.I have implemented 4 different algorithms that include Multi Layer perceptrons, Support Vector Machines, Decision Trees and Gaussian Naive Bayes. For feature engineering i.e is to extract the most relevant features I used a random forest classifier. It gave me the selected features from which I took the 7 most important ones. To pre-process my data I removed the unimportant features and to further enhance my accuracy I converted my dataset to binary for easier implementation. However, the maximum accuracy I received from all the models was 77.5% that from decision trees. MLP gave me an accuracy of 74.3%, Naive Bayes gave 70.11% and SVM gave 72.89%.
+Moreover, to implement the algorithms I extracted the major algorithms from the paper but however, due to lack of time I was unable to execute them completely.
