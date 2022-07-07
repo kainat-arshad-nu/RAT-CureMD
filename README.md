@@ -1,7 +1,8 @@
 # Rat-Project-CureMD
 
 The following project was done for the Research Aptitude Test of CureMD.The following contains critical reviews of the below mentioned papers:
-  1-Explainable AI for Classification using Probabilistic Logic Inference
+ 
+ 1-Explainable AI for Classification using Probabilistic Logic Inference
   
   2-Causability and explainability of artificial intelligence in medicine
 
